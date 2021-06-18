@@ -1,0 +1,118 @@
+
+h2{
+    color:aquamarine; 
+   margin-left:200px
+  
+}
+
+
+img{
+    border-radius: 50px;
+    border: dotted;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size:40px;color: white;
+    text-shadow: 12px 12px 14px #000000;
+}
+
+
+h2::first-line {
+    color: #b700ff71;
+    font-variant: small-caps;
+    font-size:25px;
+    color: white;
+    text-shadow: 12px 12px 14px red;
+  }
+
+
+
+p{
+    font-size: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 35px;
+    color: white;
+    text-shadow: 22px 22px 24px purple;
+}
+
+.header{
+    background-color:#7b17AA;
+}
+
+.AbtMe{
+   padding: 20px;
+  
+}
+
+
+
+.games{
+    display: flex;
+    background-color: salmon;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.pt2{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 1500px;
+    padding-right: 250px;
+
+}
+
+.pt1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; 
+    margin-bottom: 1400px;
+    padding-left: 150px;
+}
+
+a:link {
+    color: white; 
+ }
+ a:visited{
+     color: purple;
+ }
+
+ a:hover{
+     color:black;
+    
+ }
+
+
+img:hover{
+    opacity: 0.3;
+    width: 800px;
+    height:500px;
+}
+
+
+  
+
+.games {
+    background-image: url("Starrynight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  
+  #grad1 {
+    background-image: linear-gradient(#7b17AA, rgb(39, 38, 38),#050505);
+  }
